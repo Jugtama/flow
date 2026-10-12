@@ -1,0 +1,419 @@
+{
+  "nodes": [
+    {
+      "id": "node-1",
+      "shape": "textbox",
+      "x": 90,
+      "y": 80,
+      "width": 780,
+      "height": 50,
+      "text": "アカウント発行フロー",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 26,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-2",
+      "shape": "textbox",
+      "x": 90,
+      "y": 128,
+      "width": 780,
+      "height": 35,
+      "text": "申請・確認・権限設定・通知のサンプル",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#627d98",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-3",
+      "shape": "start-end",
+      "x": 350,
+      "y": 190,
+      "width": 180,
+      "height": 50,
+      "text": "開始",
+      "fillColor": "#dceef9",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-4",
+      "shape": "data",
+      "x": 340,
+      "y": 290,
+      "width": 200,
+      "height": 70,
+      "text": "アカウントを申請",
+      "fillColor": "#eaf4fb",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-5",
+      "shape": "decision",
+      "x": 330,
+      "y": 400,
+      "width": 220,
+      "height": 100,
+      "text": "申請内容は\n正しい？",
+      "fillColor": "#fff3d6",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-6",
+      "shape": "process",
+      "x": 340,
+      "y": 550,
+      "width": 200,
+      "height": 70,
+      "text": "権限を設定",
+      "fillColor": "#e2f2e9",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-7",
+      "shape": "document",
+      "x": 340,
+      "y": 670,
+      "width": 200,
+      "height": 70,
+      "text": "発行結果を通知",
+      "fillColor": "#eaf4fb",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-8",
+      "shape": "start-end",
+      "x": 350,
+      "y": 790,
+      "width": 180,
+      "height": 50,
+      "text": "完了",
+      "fillColor": "#dceef9",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-9",
+      "shape": "process",
+      "x": 690,
+      "y": 415,
+      "width": 180,
+      "height": 70,
+      "text": "修正を依頼",
+      "fillColor": "#fce8e6",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-10",
+      "shape": "start-end",
+      "x": 690,
+      "y": 550,
+      "width": 180,
+      "height": 50,
+      "text": "申請者へ差し戻し",
+      "fillColor": "#fce8e6",
+      "strokeColor": "#41617e",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-11",
+      "shape": "textbox",
+      "x": 425,
+      "y": 503,
+      "width": 80,
+      "height": 35,
+      "text": "はい",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#2d6a4f",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-12",
+      "shape": "textbox",
+      "x": 575,
+      "y": 413,
+      "width": 80,
+      "height": 35,
+      "text": "いいえ",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#ad4845",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-13",
+      "shape": "user-person",
+      "x": 110,
+      "y": 285,
+      "width": 80,
+      "height": 80,
+      "text": "",
+      "fillColor": "#527fa3",
+      "strokeColor": "#527fa3",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-14",
+      "shape": "textbox",
+      "x": 80,
+      "y": 365,
+      "width": 140,
+      "height": 35,
+      "text": "申請者",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-15",
+      "shape": "security-admin_panel_settings",
+      "x": 110,
+      "y": 545,
+      "width": 80,
+      "height": 80,
+      "text": "",
+      "fillColor": "#527fa3",
+      "strokeColor": "#527fa3",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-16",
+      "shape": "textbox",
+      "x": 80,
+      "y": 625,
+      "width": 140,
+      "height": 35,
+      "text": "管理者",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-17",
+      "shape": "infra-database",
+      "x": 735,
+      "y": 675,
+      "width": 90,
+      "height": 90,
+      "text": "",
+      "fillColor": "#527fa3",
+      "strokeColor": "#527fa3",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 15,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    },
+    {
+      "id": "node-18",
+      "shape": "textbox",
+      "x": 680,
+      "y": 767,
+      "width": 200,
+      "height": 35,
+      "text": "アカウント台帳",
+      "fillColor": "transparent",
+      "strokeColor": "transparent",
+      "lineStyle": "solid",
+      "textColor": "#243b53",
+      "fontSize": 14,
+      "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn-1",
+      "from": {
+        "nodeId": "node-3",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-4",
+        "position": "top"
+      },
+      "color": "#41617e",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-2",
+      "from": {
+        "nodeId": "node-4",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-5",
+        "position": "top"
+      },
+      "color": "#41617e",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-3",
+      "from": {
+        "nodeId": "node-5",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-6",
+        "position": "top"
+      },
+      "color": "#41617e",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-4",
+      "from": {
+        "nodeId": "node-6",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-7",
+        "position": "top"
+      },
+      "color": "#41617e",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-5",
+      "from": {
+        "nodeId": "node-7",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-8",
+        "position": "top"
+      },
+      "color": "#41617e",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-6",
+      "from": {
+        "nodeId": "node-5",
+        "position": "right"
+      },
+      "to": {
+        "nodeId": "node-9",
+        "position": "left"
+      },
+      "color": "#ad4845",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-7",
+      "from": {
+        "nodeId": "node-9",
+        "position": "bottom"
+      },
+      "to": {
+        "nodeId": "node-10",
+        "position": "top"
+      },
+      "color": "#ad4845",
+      "arrowType": "end",
+      "lineStyle": "solid"
+    },
+    {
+      "id": "conn-8",
+      "from": {
+        "nodeId": "node-13",
+        "position": "right"
+      },
+      "to": {
+        "nodeId": "node-4",
+        "position": "left"
+      },
+      "color": "#8aa6bc",
+      "arrowType": "end",
+      "lineStyle": "dashed"
+    },
+    {
+      "id": "conn-9",
+      "from": {
+        "nodeId": "node-15",
+        "position": "right"
+      },
+      "to": {
+        "nodeId": "node-6",
+        "position": "left"
+      },
+      "color": "#8aa6bc",
+      "arrowType": "end",
+      "lineStyle": "dashed"
+    },
+    {
+      "id": "conn-10",
+      "from": {
+        "nodeId": "node-7",
+        "position": "right"
+      },
+      "to": {
+        "nodeId": "node-17",
+        "position": "left"
+      },
+      "color": "#8aa6bc",
+      "arrowType": "end",
+      "lineStyle": "dashed"
+    }
+  ],
+  "nodeIdCounter": 18,
+  "connectionIdCounter": 10,
+  "svgImportShapes": {}
+}
